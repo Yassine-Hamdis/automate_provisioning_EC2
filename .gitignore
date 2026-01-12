@@ -1,0 +1,13 @@
+# vars
+*.tfvars
+
+# terraform state
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# crash log
+crash.log
+
+# ignore override files as they are usually used to override resources locally
+override.tf
